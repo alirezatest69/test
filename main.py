@@ -1,4 +1,3 @@
-a = 12
-b = 12
-c = a + b
-print("result is: ", c)
+def Add(a, b):
+    return a + b
+print("result is: ", Add(1,4))
